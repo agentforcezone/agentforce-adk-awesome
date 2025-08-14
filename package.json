@@ -14,6 +14,7 @@
   },
   "scripts": {
     "minimal-agent": "bun run agents/basic/minimal-agent.ts",
-    "basic-agent": "bun run agents/basic/basic-agent.ts"
+    "basic-agent": "bun run agents/basic/basic-agent.ts",
+    "openrouter-agent": "bun run agents/basic/openrouter-agent.ts"
   }
 }
