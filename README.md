@@ -13,7 +13,8 @@
 
   <p>
     <a href="#quick-start">Quick Start</a> •
-    <a href="#example-agents">Examples Agents</a>
+    <a href="#example-agents">Examples Agents</a> •
+    <a href="#skill-agents">Skills Agents</a> 
   </p>
   <p> visit also the </p>
   <p> 
@@ -52,7 +53,17 @@ This repository contains examples of how to use the AgentForce ADK (Agent Develo
     bun i
     ```      
 
-3. **Run the minimal agent example**:
+3. **Initialize skills (optional)**:
+
+    Copy the default Agentforce skills to your local project:
+
+    ```bash
+    bun init-skills
+    ```
+
+    This will copy the skills from `node_modules/@agentforce/adk/lib/_assets/skills` to `./skills` directory.
+
+4. **Run the minimal agent example**:
    
     All examples can be executed using the `bun` script commands. For example, to run the minimal agent example, use:
 
@@ -94,4 +105,13 @@ bun openrouter-agent
 **File Agent**: An agent that generates API documentation and saves it to a file.
 ```bash
 bun file-agent
+```
+
+<br/>
+
+## Skill Agents
+
+**Product Owner Agent**: An agent that demonstrates the skills of a Product Owner, including backlog
+```bash
+bun product-owner-agent
 ```

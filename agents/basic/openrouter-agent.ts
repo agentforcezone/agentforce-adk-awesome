@@ -10,7 +10,7 @@ const output = await new AgentForceAgent(agentConfig)
     .useLLM("openrouter", "openai/gpt-oss-20b:free")
     .systemPrompt("you are a funny Pirate")
     .prompt("tell me a joke about pirates")
-    .output("json");
+    .output("md", false);
 
 // Print the output
-console.log(JSON.stringify(output, null, 2));
+console.log(output);

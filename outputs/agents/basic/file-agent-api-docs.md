@@ -1,4 +1,4 @@
-## My Auth Service API - Documentation
+## My Auth Service API Documentation
 
 This document describes the API endpoints for the My Auth Service.
 
@@ -19,8 +19,8 @@ This document describes the API endpoints for the My Auth Service.
     *   `password` (string, required): The user's password.
     *   `email` (string, required): The user's email address.
 *   **Response Codes:**
-    *   `201 Created`: User created successfully. Returns the new user object.
-    *   `400 Bad Request`: Invalid request data. Returns a JSON object with error details.
+    *   `201 Created`: User successfully created.  Returns the new user object.
+    *   `400 Bad Request`: Invalid input data. Returns a JSON object with error details.
     *   `409 Conflict`: Username or email already exists.
 *   **Response Body (201 Created):**
     ```json
@@ -37,7 +37,7 @@ This document describes the API endpoints for the My Auth Service.
 *   **Endpoint:** `GET /users/{user_id}`
 *   **Description:** Retrieves a user by their ID.
 *   **Parameters:**
-    *   `user_id` (string, required): The ID of the user to retrieve.
+    *   `user_id` (string, required): The unique identifier for the user.
 *   **Response Codes:**
     *   `200 OK`: User found. Returns the user object.
     *   `404 Not Found`: User not found.
@@ -56,14 +56,14 @@ This document describes the API endpoints for the My Auth Service.
 *   **Endpoint:** `PUT /users/{user_id}`
 *   **Description:** Updates an existing user's information.
 *   **Parameters:**
-    *   `user_id` (string, required): The ID of the user to update.
+    *   `user_id` (string, required): The unique identifier for the user.
 *   **Request Body:**
     *   `username` (string, optional): The new username.
     *   `password` (string, optional): The new password.
     *   `email` (string, optional): The new email address.
 *   **Response Codes:**
-    *   `200 OK`: User updated successfully. Returns the updated user object.
-    *   `400 Bad Request`: Invalid request data. Returns a JSON object with error details.
+    *   `200 OK`: User successfully updated. Returns the updated user object.
+    *   `400 Bad Request`: Invalid input data. Returns a JSON object with error details.
     *   `404 Not Found`: User not found.
 *   **Response Body (200 OK):**
     ```json
@@ -80,48 +80,46 @@ This document describes the API endpoints for the My Auth Service.
 *   **Endpoint:** `DELETE /users/{user_id}`
 *   **Description:** Deletes a user account.
 *   **Parameters:**
-    *   `user_id` (string, required): The ID of the user to delete.
+    *   `user_id` (string, required): The unique identifier for the user.
 *   **Response Codes:**
-    *   `204 No Content`: User deleted successfully.
+    *   `204 No Content`: User successfully deleted.
     *   `404 Not Found`: User not found.
 
 ---
 
-### Authentication
+### Password Management
 
-#### 5. Login
+#### 5. Reset Password
 
-*   **Endpoint:** `POST /auth/login`
-*   **Description:** Authenticates a user and returns an access token.
+*   **Endpoint:** `POST /password/reset`
+*   **Description:** Initiates a password reset process.
 *   **Request Body:**
-    *   `username` (string, required): The user's username.
-    *   `password` (string, required): The user's password.
+    *   `email` (string, required): The user's email address.
 *   **Response Codes:**
-    *   `200 OK`: Authentication successful. Returns the access token.
-    *   `401 Unauthorized`: Invalid credentials.
+    *   `200 OK`: Password reset link generated. Returns a JSON object containing the link.
+    *   `400 Bad Request`: Invalid email format.
+    *   `404 Not Found`: User not found.
+
 *   **Response Body (200 OK):**
     ```json
     {
-      "token": "jwt-string"
+      "token": "string-token-value"
     }
     ```
 
-#### 6. Refresh Token
+#### 6. Verify Reset Token
 
-*   **Endpoint:** `POST /auth/refresh`
-*   **Description:**  Refreshes an existing access token.
+*   **Endpoint:** `POST /password/verify`
+*   **Description:** Verifies a password reset token and allows the user to set a new password.
 *   **Request Body:**
-    *   `refresh_token` (string, required): The user's refresh token.
+    *   `token` (string, required): The password reset token.
+    *   `password` (string, required): The new password.
 *   **Response Codes:**
-    *   `200 OK`: Refresh successful. Returns the new access token.
-    *   `401 Unauthorized`: Invalid refresh token.
+    *   `200 OK`: Password successfully reset.
+    *   `400 Bad Request`: Invalid token or password.
+    *   `404 Not Found`: Token not found.
+
 *   **Response Body (200 OK):**
     ```json
-    {
-      "token": "jwt-string"
-    }
+    {}
     ```
-
----
-
-**Note:**  This is a simplified API documentation.  Error responses will include detailed error messages in JSON format.  Rate limiting and other security measures are implemented.
