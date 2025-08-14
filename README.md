@@ -85,3 +85,13 @@ bun minimal-agent
 ```bash
 bun basic-agent
 ```  
+
+**OpenRouter Agent**: An agent that uses the OpenRouter API to generate responses based on a system prompt and a user prompt.
+```bash
+bun openrouter-agent
+```
+
+**File Agent**: An agent that generates API documentation and saves it to a file.
+```bash
+bun file-agent
+```
