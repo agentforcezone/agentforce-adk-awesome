@@ -30,7 +30,7 @@
 
 This project is in early development and is not yet production-ready. It is intended for testing and experimentation only. Use at your own risk. 
 
-Current Version: 0.9.0
+Current Version: 0.10.2
 
 <br/>
 
@@ -78,8 +78,16 @@ To run the examples, you need to set up your environment variables. Create a `.e
 and add your API keys and configuration settings. For example:
 
 ```env
+.env
+
+# This will help you control the verbosity of logs.
 LOG_LEVEL=DEBUG
+
+# Replace the placeholder with your actual API key.
 OPENROUTER_API_KEY=sk-or-v1-your-api-key
+
+# ASSETS: Skills, Prompts, Templates, etc. for the agent (optional)
+AGENT_ASSETS_PATH=assets/
 ``` 
 
 <br/>
