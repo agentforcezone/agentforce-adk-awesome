@@ -1,0 +1,19 @@
+{
+  "name": "agentforce-adk-awesome",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@agentforce/adk": "^0.9.0"
+  },
+  "scripts": {
+    "minimal-agent": "bun run agents/basic/minimal-agent.ts",
+    "basic-agent": "bun run agents/basic/basic-agent.ts"
+  }
+}
