@@ -1,0 +1,196 @@
+{
+    "directory": ".",
+    "entries": [
+        {
+            "name": ".",
+            "permissions": "drwxr-xr-x",
+            "links": 19,
+            "owner": "U730172",
+            "group": "staff",
+            "size": 608,
+            "date": "Aug 15",
+            "time": "16:37"
+        },
+        {
+            "name": "..",
+            "permissions": "drwxr-xr-x",
+            "links": 18,
+            "owner": "U730172",
+            "group": "staff",
+            "size": 576,
+            "date": "Aug 14",
+            "time": "11:08"
+        },
+        {
+            "name": ".claude",
+            "permissions": "drwxr-xr-x@",
+            "links": 3,
+            "owner": "U730172",
+            "group": "staff",
+            "size": 96,
+            "date": "Aug 14",
+            "time": "22:32"
+        },
+        {
+            "name": ".env",
+            "permissions": "-rw-r--r--@",
+            "links": 1,
+            "owner": "U730172",
+            "group": "staff",
+            "size": 293,
+            "date": "Aug 14",
+            "time": "23:00"
+        },
+        {
+            "name": ".env.example",
+            "permissions": "-rw-r--r--@",
+            "links": 1,
+            "owner": "U730172",
+            "group": "staff",
+            "size": 717,
+            "date": "Aug 14",
+            "time": "22:59"
+        },
+        {
+            "name": ".git",
+            "permissions": "drwxr-xr-x",
+            "links": 15,
+            "owner": "U730172",
+            "group": "staff",
+            "size": 480,
+            "date": "Aug 14",
+            "time": "23:03"
+        },
+        {
+            "name": ".gitignore",
+            "permissions": "-rw-r--r--@",
+            "links": 1,
+            "owner": "U730172",
+            "group": "staff",
+            "size": 448,
+            "date": "Aug 14",
+            "time": "22:52"
+        },
+        {
+            "name": "agents",
+            "permissions": "drwxr-xr-x@",
+            "links": 6,
+            "owner": "U730172",
+            "group": "staff",
+            "size": 192,
+            "date": "Aug 15",
+            "time": "12:44"
+        },
+        {
+            "name": "assets",
+            "permissions": "drwxr-xr-x@",
+            "links": 3,
+            "owner": "U730172",
+            "group": "staff",
+            "size": 96,
+            "date": "Aug 14",
+            "time": "22:26"
+        },
+        {
+            "name": "bun.lock",
+            "permissions": "-rw-r--r--@",
+            "links": 1,
+            "owner": "U730172",
+            "group": "staff",
+            "size": 40220,
+            "date": "Aug 15",
+            "time": "16:36"
+        },
+        {
+            "name": "index.ts",
+            "permissions": "-rw-r--r--@",
+            "links": 1,
+            "owner": "U730172",
+            "group": "staff",
+            "size": 30,
+            "date": "Aug 14",
+            "time": "11:09"
+        },
+        {
+            "name": "node_modules",
+            "permissions": "drwxr-xr-x@",
+            "links": 185,
+            "owner": "U730172",
+            "group": "staff",
+            "size": 5920,
+            "date": "Aug 15",
+            "time": "16:36"
+        },
+        {
+            "name": "outputs",
+            "permissions": "drwxr-xr-x@",
+            "links": 3,
+            "owner": "U730172",
+            "group": "staff",
+            "size": 96,
+            "date": "Aug 14",
+            "time": "12:14"
+        },
+        {
+            "name": "package-summary.md",
+            "permissions": "-rw-r--r--@",
+            "links": 1,
+            "owner": "U730172",
+            "group": "staff",
+            "size": 1348,
+            "date": "Aug 15",
+            "time": "16:37"
+        },
+        {
+            "name": "package.json",
+            "permissions": "-rw-r--r--@",
+            "links": 1,
+            "owner": "U730172",
+            "group": "staff",
+            "size": 674,
+            "date": "Aug 15",
+            "time": "16:36"
+        },
+        {
+            "name": "README.md",
+            "permissions": "-rw-r--r--@",
+            "links": 1,
+            "owner": "U730172",
+            "group": "staff",
+            "size": 3029,
+            "date": "Aug 14",
+            "time": "23:03"
+        },
+        {
+            "name": "scripts",
+            "permissions": "drwxr-xr-x@",
+            "links": 3,
+            "owner": "U730172",
+            "group": "staff",
+            "size": 96,
+            "date": "Aug 14",
+            "time": "23:01"
+        },
+        {
+            "name": "skills",
+            "permissions": "drwxr-xr-x@",
+            "links": 3,
+            "owner": "U730172",
+            "group": "staff",
+            "size": 96,
+            "date": "Aug 14",
+            "time": "23:02"
+        },
+        {
+            "name": "tsconfig.json",
+            "permissions": "-rw-r--r--@",
+            "links": 1,
+            "owner": "U730172",
+            "group": "staff",
+            "size": 713,
+            "date": "Aug 14",
+            "time": "11:09"
+        }
+    ],
+    "totalBlocks": 144
+}

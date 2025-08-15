@@ -13,8 +13,9 @@
 
   <p>
     <a href="#quick-start">Quick Start</a> •
-    <a href="#example-agents">Examples Agents</a> •
-    <a href="#skill-agents">Skills Agents</a> 
+    <a href="#basic-agents">Basic Agents</a> •
+    <a href="#skill-agents">Skill Agents</a> •
+    <a href="#tool-agents">Tool Agents</a>
   </p>
   <p> visit also the </p>
   <p> 
@@ -93,24 +94,24 @@ AGENT_ASSETS_PATH=assets/
 <br/>
 <br/>
 
-## Example Agents
+## Basic Agents
 
-**Minimal Agent**: A simple agent that demonstrates basic functionality.
+**Minimal Agent**: A simple agent that demonstrates basic AgentForce ADK functionality and installation verification.
 ```bash
 bun minimal-agent
 ```
 
-**Basic Agent**: An agent that showcases how to create and configure an agent with a system prompt and a user prompt.
+**Basic Agent**: An agent that showcases how to create and configure an agent with a system prompt and user prompt using the default Ollama provider.
 ```bash
 bun basic-agent
 ```  
 
-**OpenRouter Agent**: An agent that uses the OpenRouter API to generate responses based on a system prompt and a user prompt.
+**OpenRouter Agent**: An agent that uses the OpenRouter API to generate pirate-themed responses, demonstrating external API integration.
 ```bash
 bun openrouter-agent
 ```
 
-**File Agent**: An agent that generates API documentation and saves it to a file.
+**File Agent**: An agent that generates API documentation and saves it to a file, showcasing file output capabilities.
 ```bash
 bun file-agent
 ```
@@ -119,7 +120,26 @@ bun file-agent
 
 ## Skill Agents
 
-**Product Owner Agent**: An agent that demonstrates the skills of a Product Owner, including backlog
+**Product Owner Agent**: An agent that demonstrates skill-based functionality using the Product Owner skill set for Agile environments.
 ```bash
 bun product-owner-agent
+```
+
+<br/>
+
+## Tool Agents
+
+**Simple Tool Agent**: A basic file management assistant that demonstrates tool usage with file system operations.
+```bash
+bun simple-tool-agent
+```
+
+**OS Tool Agent**: An agent that executes system commands (like 'ls -la') and formats the output as JSON, demonstrating OS interaction capabilities.
+```bash
+bun os-tool-agent
+```
+
+**OpenRouter Tool Use Agent**: A sophisticated agent that uses OpenRouter with tool calling capabilities to create file structures and ASCII trees.
+```bash
+bun openrouter-tool-use-agent
 ```

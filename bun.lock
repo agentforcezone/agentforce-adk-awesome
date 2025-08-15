@@ -4,7 +4,7 @@
     "": {
       "name": "agentforce-adk-awesome",
       "dependencies": {
-        "@agentforce/adk": "0.10.2",
+        "@agentforce/adk": "0.10.3",
       },
       "devDependencies": {
         "@types/bun": "latest",
@@ -15,13 +15,13 @@
     },
   },
   "packages": {
-    "@agentforce/adk": ["@agentforce/adk@0.10.2", "", { "dependencies": { "@google/genai": "1.13.0", "cheerio": "^1.1.2", "handlebars": "4.7.8", "hono": "4.9.1", "ollama": "0.5.17", "openai": "5.12.2", "puppeteer": "24.16.1", "puppeteer-extra": "3.3.6", "puppeteer-extra-plugin-stealth": "2.11.2", "yaml": "^2.8.1" }, "peerDependencies": { "typescript": "5.9.2" } }, "sha512-HGQAv4yN4rwtg1veNpOWg+CcQMw/saJ2qJjI5OH8PlDwz5jXQmKhaRwnTtKUkZrVrqZ4wBcKNL3tOQlxnbflXA=="],
+    "@agentforce/adk": ["@agentforce/adk@0.10.3", "", { "dependencies": { "@google/genai": "1.14.0", "cheerio": "1.1.2", "handlebars": "4.7.8", "hono": "4.9.1", "ollama": "0.5.17", "openai": "5.12.2", "puppeteer": "24.16.2", "puppeteer-extra": "3.3.6", "puppeteer-extra-plugin-stealth": "2.11.2", "yaml": "2.8.1" }, "peerDependencies": { "typescript": "5.9.2" } }, "sha512-YVwYQ056ZMqi4Rb6+4p+1Rg4uTRzE4IjWTYlw/zipDNFLdpM+yeTAAyZEqljqteLnwel7i4bHNflmdzzNQQ83A=="],
 
     "@babel/code-frame": ["@babel/code-frame@7.27.1", "", { "dependencies": { "@babel/helper-validator-identifier": "^7.27.1", "js-tokens": "^4.0.0", "picocolors": "^1.1.1" } }, "sha512-cjQ7ZlQ0Mv3b47hABuTevyTuYN4i+loJKGeV9flcCgIK37cCXRh+L1bd3iBHlynerhQ7BhCkn2BPbQUL+rGqFg=="],
 
     "@babel/helper-validator-identifier": ["@babel/helper-validator-identifier@7.27.1", "", {}, "sha512-D2hP9eA+Sqx1kBZgzxZh0y1trbuU+JoDkiEwqhQ36nodYqJwyEIhPSdMNd7lOm/4io72luTPWH20Yda0xOuUow=="],
 
-    "@google/genai": ["@google/genai@1.13.0", "", { "dependencies": { "google-auth-library": "^9.14.2", "ws": "^8.18.0" }, "peerDependencies": { "@modelcontextprotocol/sdk": "^1.11.0" }, "optionalPeers": ["@modelcontextprotocol/sdk"] }, "sha512-BxilXzE8cJ0zt5/lXk6KwuBcIT9P2Lbi2WXhwWMbxf1RNeC68/8DmYQqMrzQP333CieRMdbDXs0eNCphLoScWg=="],
+    "@google/genai": ["@google/genai@1.14.0", "", { "dependencies": { "google-auth-library": "^9.14.2", "ws": "^8.18.0" }, "peerDependencies": { "@modelcontextprotocol/sdk": "^1.11.0" }, "optionalPeers": ["@modelcontextprotocol/sdk"] }, "sha512-jirYprAAJU1svjwSDVCzyVq+FrJpJd5CSxR/g2Ga/gZ0ZYZpcWjMS75KJl9y71K1mDN+tcx6s21CzCbB2R840g=="],
 
     "@puppeteer/browsers": ["@puppeteer/browsers@2.10.6", "", { "dependencies": { "debug": "^4.4.1", "extract-zip": "^2.0.1", "progress": "^2.0.3", "proxy-agent": "^6.5.0", "semver": "^7.7.2", "tar-fs": "^3.1.0", "yargs": "^17.7.2" }, "bin": { "browsers": "lib/cjs/main-cli.js" } }, "sha512-pHUn6ZRt39bP3698HFQlu2ZHCkS/lPcpv7fVQcGBSzNNygw171UXAKrCUhy+TEMw4lEttOKDgNpb04hwUAJeiQ=="],
 
@@ -295,9 +295,9 @@
 
     "pump": ["pump@3.0.3", "", { "dependencies": { "end-of-stream": "^1.1.0", "once": "^1.3.1" } }, "sha512-todwxLMY7/heScKmntwQG8CXVkWUOdYxIvY2s0VWAAMh/nd8SoYiRaKjlr7+iCs984f2P8zvrfWcDDYVb73NfA=="],
 
-    "puppeteer": ["puppeteer@24.16.1", "", { "dependencies": { "@puppeteer/browsers": "2.10.6", "chromium-bidi": "7.3.1", "cosmiconfig": "^9.0.0", "devtools-protocol": "0.0.1475386", "puppeteer-core": "24.16.1", "typed-query-selector": "^2.12.0" }, "bin": { "puppeteer": "lib/cjs/puppeteer/node/cli.js" } }, "sha512-3jrx2BrOBb8yr3+KE7OyxVtI2fjPNZi46/SQGxFvlKZX4/56i2LbdArEhNvlQw/xxmsZfpjFRbGtkMavgh3I+g=="],
+    "puppeteer": ["puppeteer@24.16.2", "", { "dependencies": { "@puppeteer/browsers": "2.10.6", "chromium-bidi": "7.3.1", "cosmiconfig": "^9.0.0", "devtools-protocol": "0.0.1475386", "puppeteer-core": "24.16.2", "typed-query-selector": "^2.12.0" }, "bin": { "puppeteer": "lib/cjs/puppeteer/node/cli.js" } }, "sha512-eNjKzwjITM4Lvho6iHb+VQamadUBgc8TsjAApsKi5N8DXipxAaAZWssBOFsrIOLo4eYWYj0Qk5gmr4wBSqzJWw=="],
 
-    "puppeteer-core": ["puppeteer-core@24.16.1", "", { "dependencies": { "@puppeteer/browsers": "2.10.6", "chromium-bidi": "7.3.1", "debug": "^4.4.1", "devtools-protocol": "0.0.1475386", "typed-query-selector": "^2.12.0", "ws": "^8.18.3" } }, "sha512-0dGD2kxoH9jqj/xiz4KZLcPKpqWygs+VSEBzvuVbU3KoT2cCw4HnMT9r/7NvYl1lIa+JCa5yIyRqi+4R3UyYfQ=="],
+    "puppeteer-core": ["puppeteer-core@24.16.2", "", { "dependencies": { "@puppeteer/browsers": "2.10.6", "chromium-bidi": "7.3.1", "debug": "^4.4.1", "devtools-protocol": "0.0.1475386", "typed-query-selector": "^2.12.0", "ws": "^8.18.3" } }, "sha512-areKSSQzpoHa5nCk3uD/o504yjrW5ws0N6jZfdFZ3a4H+Q7NBgvuDydjN5P87jN4Rj+eIpLcK3ELOThTtYuuxg=="],
 
     "puppeteer-extra": ["puppeteer-extra@3.3.6", "", { "dependencies": { "@types/debug": "^4.1.0", "debug": "^4.1.1", "deepmerge": "^4.2.2" }, "peerDependencies": { "@types/puppeteer": "*", "puppeteer": "*", "puppeteer-core": "*" }, "optionalPeers": ["@types/puppeteer", "puppeteer", "puppeteer-core"] }, "sha512-rsLBE/6mMxAjlLd06LuGacrukP2bqbzKCLzV1vrhHFavqQE/taQ2UXv3H5P0Ls7nsrASa+6x3bDbXHpqMwq+7A=="],
 

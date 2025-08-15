@@ -10,7 +10,7 @@
     "typescript": "^5.9.2"
   },
   "dependencies": {
-    "@agentforce/adk": "0.10.2"
+    "@agentforce/adk": "0.10.3"
   },
   "scripts": {
     "init-skills": "bun run scripts/init-agentforce-skills.ts",
@@ -20,6 +20,10 @@
     "openrouter-agent": "bun run agents/basic/openrouter-agent.ts",
     "file-agent": "bun run agents/basic/file.agent.ts",
 
-    "product-owner-agent": "bun run agents/skills/product-owner-agent.ts"
+    "product-owner-agent": "bun run agents/skills/product-owner-agent.ts",
+
+    "simple-tool-agent": "bun run agents/tools/simple-tool-agent.ts",
+    "os-tool-agent": "bun run agents/tools/os-tool-agent.ts",
+    "openrouter-tool-use-agent": "bun run agents/tools/openrouter-tool-use-agent.ts"
   }
 }
