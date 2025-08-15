@@ -4,18 +4,18 @@
     "": {
       "name": "agentforce-adk-awesome",
       "dependencies": {
-        "@agentforce/adk": "0.10.3",
+        "@agentforce/adk": "0.11.0",
       },
       "devDependencies": {
-        "@types/bun": "latest",
+        "@types/bun": "1.2.20",
       },
       "peerDependencies": {
-        "typescript": "^5.9.2",
+        "typescript": "5.9.2",
       },
     },
   },
   "packages": {
-    "@agentforce/adk": ["@agentforce/adk@0.10.3", "", { "dependencies": { "@google/genai": "1.14.0", "cheerio": "1.1.2", "handlebars": "4.7.8", "hono": "4.9.1", "ollama": "0.5.17", "openai": "5.12.2", "puppeteer": "24.16.2", "puppeteer-extra": "3.3.6", "puppeteer-extra-plugin-stealth": "2.11.2", "yaml": "2.8.1" }, "peerDependencies": { "typescript": "5.9.2" } }, "sha512-YVwYQ056ZMqi4Rb6+4p+1Rg4uTRzE4IjWTYlw/zipDNFLdpM+yeTAAyZEqljqteLnwel7i4bHNflmdzzNQQ83A=="],
+    "@agentforce/adk": ["@agentforce/adk@0.11.0", "", { "dependencies": { "@google/genai": "1.14.0", "cheerio": "1.1.2", "handlebars": "4.7.8", "hono": "4.9.1", "ollama": "0.5.17", "openai": "5.12.2", "puppeteer": "24.16.2", "puppeteer-extra": "3.3.6", "puppeteer-extra-plugin-stealth": "2.11.2", "yaml": "2.8.1" }, "peerDependencies": { "typescript": "5.9.2" } }, "sha512-noKvxaHNLqqiC66z+df8OYy8Y4tMlBd5Fe3Qw+Jt4xRofAMqmdTouL9obqw5/6Y8cPaoNyxYd2jggJ1VRjW64Q=="],
 
     "@babel/code-frame": ["@babel/code-frame@7.27.1", "", { "dependencies": { "@babel/helper-validator-identifier": "^7.27.1", "js-tokens": "^4.0.0", "picocolors": "^1.1.1" } }, "sha512-cjQ7ZlQ0Mv3b47hABuTevyTuYN4i+loJKGeV9flcCgIK37cCXRh+L1bd3iBHlynerhQ7BhCkn2BPbQUL+rGqFg=="],
 

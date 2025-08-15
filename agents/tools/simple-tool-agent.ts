@@ -2,7 +2,7 @@ import { AgentForceAgent, type AgentConfig } from "@agentforce/adk";
 
 const agentConfig: AgentConfig = {
     name: "FileAgent",
-    tools: ["fs_read_file", "fs_write_file", "fs_list_dir"]
+    tools: ["fs_read_file", "fs_list_dir"]
 };
 
 const agent = new AgentForceAgent(agentConfig)

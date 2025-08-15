@@ -143,3 +143,8 @@ bun os-tool-agent
 ```bash
 bun openrouter-tool-use-agent
 ```
+
+**Browser Use Agent**: An agent that automates web browsing tasks, searches for AI news on Google, and creates markdown summaries with structured output.
+```bash
+bun browser-use-agent
+```
